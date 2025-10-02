@@ -1,0 +1,10 @@
+depth_follower:
+  ros__parameters:
+    depth_topic: "/camera/depth/image_raw"
+    cmd_vel_topic: "/cmd_vel"
+    target_distance_m: 1.0
+    max_linear_mps: 0.5
+    max_angular_rps: 1.5
+    k_v: 0.8         # distance gain
+    k_w: 0.003       # pixels-to-yaw gain (tune)
+    max_range_m: 4.0

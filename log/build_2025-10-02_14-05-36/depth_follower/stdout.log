@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing depth_follower.egg-info/PKG-INFO
+writing dependency_links to depth_follower.egg-info/dependency_links.txt
+writing entry points to depth_follower.egg-info/entry_points.txt
+writing requirements to depth_follower.egg-info/requires.txt
+writing top-level names to depth_follower.egg-info/top_level.txt
+reading manifest file 'depth_follower.egg-info/SOURCES.txt'
+writing manifest file 'depth_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages/depth-follower.egg-link (link to .)
+Installing depth_follower_node script to /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/depth_follower
+
+Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower
+running symlink_data
+symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/resource/depth_follower -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/ament_index/resource_index/packages
+symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/package.xml -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower
+symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/launch/follower.launch.py -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/launch
+symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/config/follower.params.yaml -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/config

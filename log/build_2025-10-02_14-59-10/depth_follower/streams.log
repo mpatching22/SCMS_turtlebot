@@ -1,0 +1,17 @@
+[1.681s] Invoking command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build --no-deps symlink_data
+[2.254s] running develop
+[2.487s] running egg_info
+[2.489s] writing depth_follower.egg-info/PKG-INFO
+[2.494s] writing dependency_links to depth_follower.egg-info/dependency_links.txt
+[2.498s] writing entry points to depth_follower.egg-info/entry_points.txt
+[2.502s] writing requirements to depth_follower.egg-info/requires.txt
+[2.505s] writing top-level names to depth_follower.egg-info/top_level.txt
+[2.537s] reading manifest file 'depth_follower.egg-info/SOURCES.txt'
+[2.590s] writing manifest file 'depth_follower.egg-info/SOURCES.txt'
+[2.606s] running build_ext
+[2.607s] Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages/depth-follower.egg-link (link to .)
+[2.633s] Installing depth_follower_node script to /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/depth_follower
+[2.657s] 
+[2.658s] Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower
+[2.661s] running symlink_data
+[2.761s] Invoked command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower' returned '0': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build --no-deps symlink_data
