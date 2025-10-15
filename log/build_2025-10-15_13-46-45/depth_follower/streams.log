@@ -1,0 +1,32 @@
+[1.751s] Invoking command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build --no-deps symlink_data
+[2.440s] running develop
+[2.659s] running egg_info
+[2.660s] creating depth_follower.egg-info
+[2.661s] writing depth_follower.egg-info/PKG-INFO
+[2.672s] writing dependency_links to depth_follower.egg-info/dependency_links.txt
+[2.678s] writing entry points to depth_follower.egg-info/entry_points.txt
+[2.685s] writing requirements to depth_follower.egg-info/requires.txt
+[2.689s] writing top-level names to depth_follower.egg-info/top_level.txt
+[2.694s] writing manifest file 'depth_follower.egg-info/SOURCES.txt'
+[2.787s] reading manifest file 'depth_follower.egg-info/SOURCES.txt'
+[2.849s] writing manifest file 'depth_follower.egg-info/SOURCES.txt'
+[2.863s] running build_ext
+[2.864s] Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages/depth-follower.egg-link (link to .)
+[2.888s] Installing depth_follower_node script to /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/depth_follower
+[2.908s] 
+[2.910s] Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower
+[2.912s] running symlink_data
+[2.919s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/ament_index
+[2.921s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/ament_index/resource_index
+[2.923s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/ament_index/resource_index/packages
+[2.937s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/resource/depth_follower -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/ament_index/resource_index/packages
+[2.954s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/package.xml -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower
+[2.963s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/launch
+[2.977s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/launch/follower.launch.py -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/launch
+[2.993s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/launch/sim_tb3_with_depth.launch.py -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/launch
+[3.002s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/config
+[3.014s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/config/follower.params.yaml -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/config
+[3.028s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/models
+[3.031s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/models/depth_cam
+[3.050s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/models/depth_cam/model.sdf -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/models/depth_cam
+[3.077s] Invoked command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower' returned '0': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build --no-deps symlink_data

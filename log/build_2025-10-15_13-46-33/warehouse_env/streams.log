@@ -1,0 +1,36 @@
+[1.602s] Invoking command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build --no-deps symlink_data
+[2.371s] running develop
+[2.576s] running egg_info
+[2.577s] creating warehouse_env.egg-info
+[2.578s] writing warehouse_env.egg-info/PKG-INFO
+[2.587s] writing dependency_links to warehouse_env.egg-info/dependency_links.txt
+[2.592s] writing requirements to warehouse_env.egg-info/requires.txt
+[2.597s] writing top-level names to warehouse_env.egg-info/top_level.txt
+[2.604s] writing manifest file 'warehouse_env.egg-info/SOURCES.txt'
+[2.695s] reading manifest file 'warehouse_env.egg-info/SOURCES.txt'
+[2.766s] writing manifest file 'warehouse_env.egg-info/SOURCES.txt'
+[2.789s] running build_ext
+[2.790s] Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages/warehouse-env.egg-link (link to .)
+[2.816s] 
+[2.817s] Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env
+[2.821s] running symlink_data
+[2.829s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/ament_index
+[2.833s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/ament_index/resource_index
+[2.838s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/ament_index/resource_index/packages
+[2.859s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/resource/warehouse_env -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/ament_index/resource_index/packages
+[2.872s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/launch
+[2.891s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/launch/warehouse_world.launch.py -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/launch
+[2.905s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/worlds
+[2.924s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/worlds/warehouse.world.sdf -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/worlds
+[2.948s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/package.xml -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env
+[2.961s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models
+[2.964s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/floor_concrete
+[2.985s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/floor_concrete/model.config -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/floor_concrete
+[3.012s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/floor_concrete/model.sdf -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/floor_concrete
+[3.021s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/pallet_box
+[3.036s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/pallet_box/model.config -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/pallet_box
+[3.060s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/pallet_box/model.sdf -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/pallet_box
+[3.070s] creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/shelf_simple
+[3.087s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/shelf_simple/model.config -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/shelf_simple
+[3.109s] symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/shelf_simple/model.sdf -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/shelf_simple
+[3.134s] Invoked command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env' returned '0': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build --no-deps symlink_data
