@@ -6,6 +6,10 @@
     <plugin name="ignition::gazebo::systems::SceneBroadcaster" filename="ignition-gazebo-scene-broadcaster-system"/>
     <plugin name="ignition::gazebo::systems::Contact" filename="ignition-gazebo-contact-system"/>
 
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.8 0.8 0.8 1</background>
+    </scene>
 
     <light name="overhead" type="point">
       <pose>4 0 5 0 0 0</pose>
@@ -19,12 +23,6 @@
       </attenuation>
       <cast_shadows>0</cast_shadows>
     </light>
-
-    <scene>
-      <ambient>0.4 0.4 0.4 1</ambient>
-      <background>0.8 0.8 0.8 1</background>
-    </scene>
-
 
     <!-- Floor -->
     <include>
@@ -42,5 +40,13 @@
     <!-- Boxes -->
     <include><uri>model://pallet_box</uri><name>box1</name><pose>3.0 0.0 0.2 0 0 0</pose></include>
     <include><uri>model://pallet_box</uri><name>box2</name><pose>5.5 0.5 0.2 0 0 0</pose></include>
+
+    <!-- Hi-vis walking actor (requires meshes/walk.dae in hi_vis_person) -->
+    <include>
+      <uri>model://hi_vis_person</uri>
+      <name>person</name>
+      <pose>0 0 1 0 0 0</pose>
+    </include>
+
   </world>
 </sdf>
