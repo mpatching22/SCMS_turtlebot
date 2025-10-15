@@ -60,7 +60,3 @@ If everything looks correct, the environment is ready for the TurtleBot to spawn
 ```bash
 IGN_RENDER_ENGINE=ogre ign gazebo ...
 ```
-### Other
-- GitHub for version control  
-- UTS Mechatronics Lab for testing and demo  
-
