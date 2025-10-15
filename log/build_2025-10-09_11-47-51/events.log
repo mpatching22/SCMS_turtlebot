@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.008925] (depth_follower) JobQueued: {'identifier': 'depth_follower', 'dependencies': OrderedDict()}
+[0.010287] (depth_follower) JobStarted: {'identifier': 'depth_follower'}
+[0.096925] (-) TimerEvent: {}
+[0.200898] (-) TimerEvent: {}
+[0.305275] (-) TimerEvent: {}
+[0.409940] (-) TimerEvent: {}
+[0.514708] (-) TimerEvent: {}
+[0.618603] (-) TimerEvent: {}
+[0.739548] (-) TimerEvent: {}
+[0.854548] (-) TimerEvent: {}
+[0.958343] (-) TimerEvent: {}
+[1.066191] (-) TimerEvent: {}
+[1.168790] (-) TimerEvent: {}
+[1.272015] (-) TimerEvent: {}
+[1.375908] (-) TimerEvent: {}
+[1.478917] (-) TimerEvent: {}
+[1.583037] (-) TimerEvent: {}
+[1.687220] (-) TimerEvent: {}
+[1.792239] (-) TimerEvent: {}
+[1.895613] (-) TimerEvent: {}
+[1.999339] (-) TimerEvent: {}
+[2.101625] (-) TimerEvent: {}
+[2.205535] (-) TimerEvent: {}
+[2.308933] (-) TimerEvent: {}
+[2.412815] (-) TimerEvent: {}
+[2.515427] (-) TimerEvent: {}
+[2.619239] (-) TimerEvent: {}
+[2.735880] (-) TimerEvent: {}
+[2.838265] (-) TimerEvent: {}
+[2.940650] (-) TimerEvent: {}
+[3.043047] (-) TimerEvent: {}
+[3.152757] (-) TimerEvent: {}
+[3.261401] (-) TimerEvent: {}
+[3.370627] (-) TimerEvent: {}
+[3.472663] (-) TimerEvent: {}
+[3.574885] (-) TimerEvent: {}
+[3.677488] (-) TimerEvent: {}
+[3.779870] (-) TimerEvent: {}
+[3.882531] (-) TimerEvent: {}
+[3.985200] (-) TimerEvent: {}
+[4.088723] (-) TimerEvent: {}
+[4.190833] (-) TimerEvent: {}
+[4.297753] (-) TimerEvent: {}
+[4.399758] (-) TimerEvent: {}
+[4.502112] (-) TimerEvent: {}
+[4.604852] (-) TimerEvent: {}
+[4.707295] (-) TimerEvent: {}
+[4.809357] (-) TimerEvent: {}
+[4.911299] (-) TimerEvent: {}
+[5.014177] (-) TimerEvent: {}
+[5.121828] (-) TimerEvent: {}
+[5.223922] (-) TimerEvent: {}
+[5.326317] (-) TimerEvent: {}
+[5.428568] (-) TimerEvent: {}
+[5.530728] (-) TimerEvent: {}
+[5.653158] (-) TimerEvent: {}
+[5.755293] (-) TimerEvent: {}
+[5.858500] (-) TimerEvent: {}
+[5.960005] (-) TimerEvent: {}
+[6.061836] (-) TimerEvent: {}
+[6.164116] (-) TimerEvent: {}
+[6.265742] (-) TimerEvent: {}
+[6.367699] (-) TimerEvent: {}
+[6.477231] (-) TimerEvent: {}
+[6.507026] (depth_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mpatching', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/mpatching', 'OLDPWD': '/mnt/c/Users/micah', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mpatching/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mpatching', 'NAME': 'Micah', 'WSL_INTEROP': '/run/WSL/336_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mpatching/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/micah/Documents/Flutter/flutter/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/micah/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/micah/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/micah/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/micah/.dotnet/tools:/mnt/c/Users/micah/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/micah/Documents/Flutter/flutter/bin:/mnt/c/Users/micah/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'ea85e6cb-ee5e-4e21-aa5e-02cb0d5991bd', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'PWD': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[6.596849] (-) TimerEvent: {}
+[6.699210] (-) TimerEvent: {}
+[6.800935] (-) TimerEvent: {}
+[6.902822] (-) TimerEvent: {}
+[7.004128] (-) TimerEvent: {}
+[7.112399] (-) TimerEvent: {}
+[7.214412] (-) TimerEvent: {}
+[7.315955] (-) TimerEvent: {}
+[7.417309] (-) TimerEvent: {}
+[7.518929] (-) TimerEvent: {}
+[7.620184] (-) TimerEvent: {}
+[7.722735] (-) TimerEvent: {}
+[7.824410] (-) TimerEvent: {}
+[7.925646] (-) TimerEvent: {}
+[8.032688] (-) TimerEvent: {}
+[8.134136] (-) TimerEvent: {}
+[8.235387] (-) TimerEvent: {}
+[8.339988] (-) TimerEvent: {}
+[8.442866] (-) TimerEvent: {}
+[8.544251] (-) TimerEvent: {}
+[8.645957] (-) TimerEvent: {}
+[8.755619] (-) TimerEvent: {}
+[8.857513] (-) TimerEvent: {}
+[8.958843] (-) TimerEvent: {}
+[9.064944] (-) TimerEvent: {}
+[9.178376] (-) TimerEvent: {}
+[9.222027] (depth_follower) StdoutLine: {'line': b'running develop\n'}
+[9.278712] (-) TimerEvent: {}
+[9.380113] (-) TimerEvent: {}
+[9.481321] (-) TimerEvent: {}
+[9.582640] (-) TimerEvent: {}
+[9.684149] (-) TimerEvent: {}
+[9.785626] (-) TimerEvent: {}
+[9.887217] (-) TimerEvent: {}
+[10.005424] (-) TimerEvent: {}
+[10.106833] (-) TimerEvent: {}
+[10.207889] (-) TimerEvent: {}
+[10.309222] (-) TimerEvent: {}
+[10.374460] (depth_follower) StdoutLine: {'line': b'running egg_info\n'}
+[10.379621] (depth_follower) StdoutLine: {'line': b'writing depth_follower.egg-info/PKG-INFO\n'}
+[10.405985] (depth_follower) StdoutLine: {'line': b'writing dependency_links to depth_follower.egg-info/dependency_links.txt\n'}
+[10.438720] (-) TimerEvent: {}
+[10.449287] (depth_follower) StdoutLine: {'line': b'writing entry points to depth_follower.egg-info/entry_points.txt\n'}
+[10.466206] (depth_follower) StdoutLine: {'line': b'writing requirements to depth_follower.egg-info/requires.txt\n'}
+[10.528944] (depth_follower) StdoutLine: {'line': b'writing top-level names to depth_follower.egg-info/top_level.txt\n'}
+[10.540543] (-) TimerEvent: {}
+[10.642168] (-) TimerEvent: {}
+[10.740332] (depth_follower) StdoutLine: {'line': b"reading manifest file 'depth_follower.egg-info/SOURCES.txt'\n"}
+[10.744577] (-) TimerEvent: {}
+[10.845626] (-) TimerEvent: {}
+[10.951608] (-) TimerEvent: {}
+[11.059066] (-) TimerEvent: {}
+[11.160253] (-) TimerEvent: {}
+[11.176113] (depth_follower) StdoutLine: {'line': b"writing manifest file 'depth_follower.egg-info/SOURCES.txt'\n"}
+[11.260508] (depth_follower) StdoutLine: {'line': b'running build_ext\n'}
+[11.264659] (-) TimerEvent: {}
+[11.265715] (depth_follower) StdoutLine: {'line': b'Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages/depth-follower.egg-link (link to .)\n'}
+[11.365006] (-) TimerEvent: {}
+[11.376408] (depth_follower) StdoutLine: {'line': b'Installing depth_follower_node script to /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/depth_follower\n'}
+[11.450803] (depth_follower) StdoutLine: {'line': b'\n'}
+[11.452836] (depth_follower) StdoutLine: {'line': b'Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower\n'}
+[11.462244] (depth_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[11.465067] (-) TimerEvent: {}
+[11.566055] (-) TimerEvent: {}
+[11.667560] (-) TimerEvent: {}
+[11.768776] (-) TimerEvent: {}
+[11.869902] (-) TimerEvent: {}
+[11.887488] (depth_follower) CommandEnded: {'returncode': 0}
+[11.970194] (-) TimerEvent: {}
+[12.071907] (-) TimerEvent: {}
+[12.173311] (-) TimerEvent: {}
+[12.274693] (-) TimerEvent: {}
+[12.375877] (-) TimerEvent: {}
+[12.477602] (-) TimerEvent: {}
+[12.579235] (-) TimerEvent: {}
+[12.680882] (-) TimerEvent: {}
+[12.782435] (-) TimerEvent: {}
+[12.883807] (-) TimerEvent: {}
+[12.984975] (-) TimerEvent: {}
+[13.086324] (-) TimerEvent: {}
+[13.188267] (-) TimerEvent: {}
+[13.289534] (-) TimerEvent: {}
+[13.404214] (-) TimerEvent: {}
+[13.505499] (-) TimerEvent: {}
+[13.607154] (-) TimerEvent: {}
+[13.708579] (-) TimerEvent: {}
+[13.810089] (-) TimerEvent: {}
+[13.911661] (-) TimerEvent: {}
+[14.013981] (-) TimerEvent: {}
+[14.113361] (depth_follower) JobEnded: {'identifier': 'depth_follower', 'rc': 0}
+[14.184826] (-) TimerEvent: {}
+[14.185746] (-) EventReactorShutdown: {}
