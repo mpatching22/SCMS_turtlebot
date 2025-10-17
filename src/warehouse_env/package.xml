@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>warehouse_env</name>
+  <version>0.0.1</version>
+  <description>Gazebo warehouse world, models, and animated hi-vis actor</description>
+  <maintainer email="micah@petruscorp.com">Micah Patching</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

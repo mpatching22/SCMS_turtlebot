@@ -1,3 +1,0 @@
-[console_scripts]
-depth_follower_node = depth_follower.depth_follower_node:main
-
