@@ -1,0 +1,15 @@
+[8.250s] Invoking command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build --no-deps symlink_data
+[10.336s] running develop
+[11.117s] running egg_info
+[11.120s] writing warehouse_env.egg-info/PKG-INFO
+[11.137s] writing dependency_links to warehouse_env.egg-info/dependency_links.txt
+[11.148s] writing requirements to warehouse_env.egg-info/requires.txt
+[11.157s] writing top-level names to warehouse_env.egg-info/top_level.txt
+[11.454s] reading manifest file 'warehouse_env.egg-info/SOURCES.txt'
+[11.747s] writing manifest file 'warehouse_env.egg-info/SOURCES.txt'
+[11.796s] running build_ext
+[11.798s] Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages/warehouse-env.egg-link (link to .)
+[11.847s] 
+[11.852s] Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env
+[11.854s] running symlink_data
+[12.775s] Invoked command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env' returned '0': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build --no-deps symlink_data

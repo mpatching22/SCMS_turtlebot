@@ -6,6 +6,7 @@ models/floor_concrete/model.config
 models/floor_concrete/model.sdf
 models/hi_vis_person/model.config
 models/hi_vis_person/model.sdf
+models/hi_vis_person/meshes/person.dae
 models/pallet_box/model.config
 models/pallet_box/model.sdf
 models/shelf_simple/model.config

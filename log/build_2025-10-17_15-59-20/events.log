@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (depth_follower) JobQueued: {'identifier': 'depth_follower', 'dependencies': OrderedDict()}
+[0.000914] (warehouse_env) JobQueued: {'identifier': 'warehouse_env', 'dependencies': OrderedDict()}
+[0.001220] (depth_follower) JobStarted: {'identifier': 'depth_follower'}
+[0.097080] (-) TimerEvent: {}
+[0.197646] (-) TimerEvent: {}
+[0.240834] (warehouse_env) JobStarted: {'identifier': 'warehouse_env'}
+[0.297914] (-) TimerEvent: {}
+[0.398680] (-) TimerEvent: {}
+[0.499550] (-) TimerEvent: {}
+[0.600312] (-) TimerEvent: {}
+[0.701047] (-) TimerEvent: {}
+[0.801910] (-) TimerEvent: {}
+[0.902651] (-) TimerEvent: {}
+[1.003791] (-) TimerEvent: {}
+[1.105472] (-) TimerEvent: {}
+[1.206224] (-) TimerEvent: {}
+[1.310420] (-) TimerEvent: {}
+[1.411249] (-) TimerEvent: {}
+[1.511975] (-) TimerEvent: {}
+[1.612787] (-) TimerEvent: {}
+[1.713535] (-) TimerEvent: {}
+[1.814299] (-) TimerEvent: {}
+[1.915500] (-) TimerEvent: {}
+[2.016271] (-) TimerEvent: {}
+[2.118052] (-) TimerEvent: {}
+[2.218840] (-) TimerEvent: {}
+[2.319685] (-) TimerEvent: {}
+[2.420707] (-) TimerEvent: {}
+[2.521395] (-) TimerEvent: {}
+[2.622262] (-) TimerEvent: {}
+[2.723621] (-) TimerEvent: {}
+[2.824348] (-) TimerEvent: {}
+[2.925127] (-) TimerEvent: {}
+[3.025879] (-) TimerEvent: {}
+[3.126776] (-) TimerEvent: {}
+[3.227522] (-) TimerEvent: {}
+[3.328358] (-) TimerEvent: {}
+[3.429169] (-) TimerEvent: {}
+[3.529941] (-) TimerEvent: {}
+[3.630801] (-) TimerEvent: {}
+[3.731630] (-) TimerEvent: {}
+[3.832454] (-) TimerEvent: {}
+[3.945290] (-) TimerEvent: {}
+[4.046084] (-) TimerEvent: {}
+[4.146978] (-) TimerEvent: {}
+[4.247935] (-) TimerEvent: {}
+[4.348525] (-) TimerEvent: {}
+[4.449376] (-) TimerEvent: {}
+[4.550172] (-) TimerEvent: {}
+[4.650988] (-) TimerEvent: {}
+[4.751806] (-) TimerEvent: {}
+[4.853202] (-) TimerEvent: {}
+[4.954009] (-) TimerEvent: {}
+[5.055351] (-) TimerEvent: {}
+[5.156208] (-) TimerEvent: {}
+[5.256873] (-) TimerEvent: {}
+[5.357433] (-) TimerEvent: {}
+[5.458094] (-) TimerEvent: {}
+[5.558746] (-) TimerEvent: {}
+[5.659406] (-) TimerEvent: {}
+[5.760182] (-) TimerEvent: {}
+[5.860822] (-) TimerEvent: {}
+[5.961512] (-) TimerEvent: {}
+[6.062669] (-) TimerEvent: {}
+[6.164021] (-) TimerEvent: {}
+[6.264679] (-) TimerEvent: {}
+[6.365724] (-) TimerEvent: {}
+[6.466393] (-) TimerEvent: {}
+[6.567127] (-) TimerEvent: {}
+[6.667715] (-) TimerEvent: {}
+[6.769067] (-) TimerEvent: {}
+[6.869856] (-) TimerEvent: {}
+[6.970693] (-) TimerEvent: {}
+[7.071602] (-) TimerEvent: {}
+[7.172319] (-) TimerEvent: {}
+[7.273361] (-) TimerEvent: {}
+[7.374287] (-) TimerEvent: {}
+[7.475155] (-) TimerEvent: {}
+[7.575941] (-) TimerEvent: {}
+[7.676617] (-) TimerEvent: {}
+[7.777596] (-) TimerEvent: {}
+[7.878493] (-) TimerEvent: {}
+[7.979304] (-) TimerEvent: {}
+[8.059292] (depth_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env/models:/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env/models', 'USER': 'mpatching', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/mpatching', 'OLDPWD': '/mnt/c/Users/micah', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install:/home/mpatching/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mpatching', 'NAME': 'Micah', 'WSL_INTEROP': '/run/WSL/6125_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mpatching/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/micah/Documents/Flutter/flutter/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/micah/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/micah/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/micah/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/micah/.dotnet/tools:/mnt/c/Users/micah/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/micah/Documents/Flutter/flutter/bin:/mnt/c/Users/micah/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'bb20aed2-b431-458f-a378-08956afce3ac', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'PWD': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[8.095751] (-) TimerEvent: {}
+[8.196330] (-) TimerEvent: {}
+[8.297111] (-) TimerEvent: {}
+[8.397699] (-) TimerEvent: {}
+[8.498332] (-) TimerEvent: {}
+[8.598983] (-) TimerEvent: {}
+[8.663458] (warehouse_env) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build', '--no-deps', 'symlink_data'], 'cwd': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env/models:/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env/models', 'USER': 'mpatching', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/mpatching', 'OLDPWD': '/mnt/c/Users/micah', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install:/home/mpatching/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mpatching', 'NAME': 'Micah', 'WSL_INTEROP': '/run/WSL/6125_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mpatching/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/micah/Documents/Flutter/flutter/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/micah/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/micah/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/micah/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/micah/.dotnet/tools:/mnt/c/Users/micah/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/micah/Documents/Flutter/flutter/bin:/mnt/c/Users/micah/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'bb20aed2-b431-458f-a378-08956afce3ac', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'PWD': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[8.699056] (-) TimerEvent: {}
+[8.799738] (-) TimerEvent: {}
+[8.900434] (-) TimerEvent: {}
+[9.001103] (-) TimerEvent: {}
+[9.102869] (-) TimerEvent: {}
+[9.203525] (-) TimerEvent: {}
+[9.304351] (-) TimerEvent: {}
+[9.405153] (-) TimerEvent: {}
+[9.505711] (-) TimerEvent: {}
+[9.606287] (-) TimerEvent: {}
+[9.706969] (-) TimerEvent: {}
+[9.811367] (-) TimerEvent: {}
+[9.912151] (-) TimerEvent: {}
+[9.932688] (depth_follower) StdoutLine: {'line': b'running develop\n'}
+[10.012245] (-) TimerEvent: {}
+[10.112862] (-) TimerEvent: {}
+[10.213735] (-) TimerEvent: {}
+[10.314578] (-) TimerEvent: {}
+[10.415310] (-) TimerEvent: {}
+[10.495564] (depth_follower) StdoutLine: {'line': b'running egg_info\n'}
+[10.499089] (depth_follower) StdoutLine: {'line': b'writing depth_follower.egg-info/PKG-INFO\n'}
+[10.509736] (depth_follower) StdoutLine: {'line': b'writing dependency_links to depth_follower.egg-info/dependency_links.txt\n'}
+[10.515353] (-) TimerEvent: {}
+[10.516989] (depth_follower) StdoutLine: {'line': b'writing entry points to depth_follower.egg-info/entry_points.txt\n'}
+[10.526160] (warehouse_env) StdoutLine: {'line': b'running develop\n'}
+[10.528937] (depth_follower) StdoutLine: {'line': b'writing requirements to depth_follower.egg-info/requires.txt\n'}
+[10.534060] (depth_follower) StdoutLine: {'line': b'writing top-level names to depth_follower.egg-info/top_level.txt\n'}
+[10.615493] (-) TimerEvent: {}
+[10.677007] (depth_follower) StdoutLine: {'line': b"reading manifest file 'depth_follower.egg-info/SOURCES.txt'\n"}
+[10.715630] (-) TimerEvent: {}
+[10.816251] (-) TimerEvent: {}
+[10.830993] (depth_follower) StdoutLine: {'line': b"writing manifest file 'depth_follower.egg-info/SOURCES.txt'\n"}
+[10.863812] (depth_follower) StdoutLine: {'line': b'running build_ext\n'}
+[10.865039] (depth_follower) StdoutLine: {'line': b'Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages/depth-follower.egg-link (link to .)\n'}
+[10.901784] (depth_follower) StdoutLine: {'line': b'Installing depth_follower_node script to /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/depth_follower\n'}
+[10.916416] (-) TimerEvent: {}
+[10.945390] (depth_follower) StdoutLine: {'line': b'\n'}
+[10.946862] (depth_follower) StdoutLine: {'line': b'Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower\n'}
+[10.950771] (depth_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[11.016520] (-) TimerEvent: {}
+[11.117173] (-) TimerEvent: {}
+[11.163508] (warehouse_env) StdoutLine: {'line': b'running egg_info\n'}
+[11.166150] (warehouse_env) StdoutLine: {'line': b'writing warehouse_env.egg-info/PKG-INFO\n'}
+[11.177397] (warehouse_env) StdoutLine: {'line': b'writing dependency_links to warehouse_env.egg-info/dependency_links.txt\n'}
+[11.186148] (warehouse_env) StdoutLine: {'line': b'writing requirements to warehouse_env.egg-info/requires.txt\n'}
+[11.192321] (warehouse_env) StdoutLine: {'line': b'writing top-level names to warehouse_env.egg-info/top_level.txt\n'}
+[11.217468] (-) TimerEvent: {}
+[11.265996] (depth_follower) CommandEnded: {'returncode': 0}
+[11.317614] (-) TimerEvent: {}
+[11.418529] (-) TimerEvent: {}
+[11.440041] (warehouse_env) StdoutLine: {'line': b"reading manifest file 'warehouse_env.egg-info/SOURCES.txt'\n"}
+[11.518624] (-) TimerEvent: {}
+[11.619289] (-) TimerEvent: {}
+[11.706533] (warehouse_env) StdoutLine: {'line': b"writing manifest file 'warehouse_env.egg-info/SOURCES.txt'\n"}
+[11.719404] (-) TimerEvent: {}
+[11.754542] (warehouse_env) StdoutLine: {'line': b'running build_ext\n'}
+[11.756023] (warehouse_env) StdoutLine: {'line': b'Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages/warehouse-env.egg-link (link to .)\n'}
+[11.796754] (warehouse_env) StdoutLine: {'line': b'\n'}
+[11.798314] (warehouse_env) StdoutLine: {'line': b'Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env\n'}
+[11.803358] (warehouse_env) StdoutLine: {'line': b'running symlink_data\n'}
+[11.819555] (-) TimerEvent: {}
+[11.920222] (-) TimerEvent: {}
+[12.012341] (depth_follower) JobEnded: {'identifier': 'depth_follower', 'rc': 0}
+[12.036356] (-) TimerEvent: {}
+[12.136955] (-) TimerEvent: {}
+[12.237835] (-) TimerEvent: {}
+[12.344657] (-) TimerEvent: {}
+[12.445454] (-) TimerEvent: {}
+[12.546005] (-) TimerEvent: {}
+[12.646960] (-) TimerEvent: {}
+[12.657868] (warehouse_env) CommandEnded: {'returncode': 0}
+[12.747084] (-) TimerEvent: {}
+[12.847839] (-) TimerEvent: {}
+[12.950262] (-) TimerEvent: {}
+[13.050980] (-) TimerEvent: {}
+[13.151879] (-) TimerEvent: {}
+[13.253498] (-) TimerEvent: {}
+[13.354005] (-) TimerEvent: {}
+[13.454647] (-) TimerEvent: {}
+[13.555485] (-) TimerEvent: {}
+[13.571903] (warehouse_env) JobEnded: {'identifier': 'warehouse_env', 'rc': 0}
+[13.606605] (-) EventReactorShutdown: {}

@@ -41,12 +41,12 @@
     <include><uri>model://pallet_box</uri><name>box1</name><pose>3.0 0.0 0.2 0 0 0</pose></include>
     <include><uri>model://pallet_box</uri><name>box2</name><pose>5.5 0.5 0.2 0 0 0</pose></include>
 
-    <!-- Hi-vis walking actor (requires meshes/walk.dae in hi_vis_person) -->
+    <!-- Person -->
     <include>
       <uri>model://hi_vis_person</uri>
-      <name>person</name>
-      <pose>0 0 1 0 0 0</pose>
+      <pose>4 -2 0 0 0 0</pose>
     </include>
+
 
   </world>
 </sdf>

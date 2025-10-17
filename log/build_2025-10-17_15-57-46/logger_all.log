@@ -1,0 +1,188 @@
+[1.363s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.363s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b93ca75ad40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b93ca85fb50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b93ca85fb50>>, mixin_verb=('build',))
+[1.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.959s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/micah/Documents/SCMS_turtlebot'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extensions ['ignore', 'ignore_ament_install']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extension 'ignore'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extension 'ignore_ament_install'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extensions ['colcon_pkg']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extension 'colcon_pkg'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extensions ['colcon_meta']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extension 'colcon_meta'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extensions ['ros']
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_follower) by extension 'ros'
+[2.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depth_follower' with type 'ros.ament_python' and name 'depth_follower'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extensions ['ignore', 'ignore_ament_install']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extension 'ignore'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extension 'ignore_ament_install'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extensions ['colcon_pkg']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extension 'colcon_pkg'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extensions ['colcon_meta']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extension 'colcon_meta'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extensions ['ros']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_env) by extension 'ros'
+[2.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_env' with type 'ros.ament_python' and name 'warehouse_env'
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /mnt/c/Users/micah/Documents/SCMS_turtlebot/install
+[2.500s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/mpatching/ros2_ws/install
+[2.503s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[2.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.602s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'cmake_target' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'cmake_clean_first' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'cmake_force_configure' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'ament_cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'depth_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.606s] DEBUG:colcon.colcon_core.verb:Building package 'depth_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower', 'merge_install': False, 'path': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/depth_follower', 'symlink_install': True, 'test_result_base': None}
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'cmake_args' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'cmake_target' from command line to 'None'
+[2.607s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.607s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'cmake_clean_cache' from command line to 'False'
+[2.607s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'cmake_clean_first' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'cmake_force_configure' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'ament_cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'catkin_cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'warehouse_env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.608s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env', 'merge_install': False, 'path': '/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env', 'symlink_install': True, 'test_result_base': None}
+[2.609s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.610s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/depth_follower' with build type 'ament_python'
+[2.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_follower', 'ament_prefix_path')
+[2.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/hook/ament_prefix_path.ps1'
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/hook/ament_prefix_path.dsv'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/hook/ament_prefix_path.sh'
+[2.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.851s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env' with build type 'ament_python'
+[2.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_env', 'ament_prefix_path')
+[2.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/hook/ament_prefix_path.ps1'
+[2.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/hook/ament_prefix_path.dsv'
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/hook/ament_prefix_path.sh'
+[2.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.129s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/depth_follower'
+[5.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.344s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/src/warehouse_env'
+[7.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build --no-deps symlink_data
+[11.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build --no-deps symlink_data
+[13.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_follower', 'pythonpath_develop')
+[13.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/share/depth_follower/hook/pythonpath_develop.ps1'
+[13.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower' returned '0': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/build --no-deps symlink_data
+[13.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/share/depth_follower/hook/pythonpath_develop.dsv'
+[13.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/depth_follower/share/depth_follower/hook/pythonpath_develop.sh'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower' for CMake module files
+[13.878s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower' for CMake config files
+[14.091s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib'
+[14.099s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/bin'
+[14.100s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/pkgconfig/depth_follower.pc'
+[14.103s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/lib/python3.10/site-packages'
+[14.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_follower', 'pythonpath')
+[14.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/hook/pythonpath.ps1'
+[14.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/hook/pythonpath.dsv'
+[14.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/hook/pythonpath.sh'
+[14.191s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/bin'
+[14.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_follower)
+[14.194s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/package.ps1'
+[14.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/package.dsv'
+[14.299s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/package.sh'
+[14.324s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/package.bash'
+[14.355s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/depth_follower/package.zsh'
+[14.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/depth_follower/share/colcon-core/packages/depth_follower)
+[14.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_env', 'pythonpath_develop')
+[14.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/share/warehouse_env/hook/pythonpath_develop.ps1'
+[14.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env' returned '0': PYTHONPATH=/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/build --no-deps symlink_data
+[14.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/share/warehouse_env/hook/pythonpath_develop.dsv'
+[15.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/share/warehouse_env/hook/pythonpath_develop.sh'
+[15.040s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env' for CMake module files
+[15.144s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env' for CMake config files
+[15.525s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib'
+[15.532s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/bin'
+[15.534s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/pkgconfig/warehouse_env.pc'
+[15.538s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages'
+[15.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_env', 'pythonpath')
+[15.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/hook/pythonpath.ps1'
+[15.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/hook/pythonpath.dsv'
+[15.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/hook/pythonpath.sh'
+[15.641s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/bin'
+[15.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_env)
+[15.646s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/package.ps1'
+[15.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/package.dsv'
+[15.760s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/package.sh'
+[15.789s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/package.bash'
+[15.821s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/package.zsh'
+[15.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/colcon-core/packages/warehouse_env)
+[15.873s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.875s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.004s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.005s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.005s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.006s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.007s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[16.008s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/local_setup.ps1'
+[16.074s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/_local_setup_util_ps1.py'
+[16.099s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/setup.ps1'
+[16.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/local_setup.sh'
+[16.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/_local_setup_util_sh.py'
+[16.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/setup.sh'
+[16.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/local_setup.bash'
+[16.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/setup.bash'
+[16.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/local_setup.zsh'
+[16.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/micah/Documents/SCMS_turtlebot/install/setup.zsh'

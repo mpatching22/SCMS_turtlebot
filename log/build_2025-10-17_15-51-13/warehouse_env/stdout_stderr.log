@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing warehouse_env.egg-info/PKG-INFO
+writing dependency_links to warehouse_env.egg-info/dependency_links.txt
+writing requirements to warehouse_env.egg-info/requires.txt
+writing top-level names to warehouse_env.egg-info/top_level.txt
+reading manifest file 'warehouse_env.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_env.egg-info/SOURCES.txt'
+running build_ext
+Creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/lib/python3.10/site-packages/warehouse-env.egg-link (link to .)
+
+Installed /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env
+running symlink_data
+creating /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/hi_vis_person/meshes
+symbolically linking /mnt/c/Users/micah/Documents/SCMS_turtlebot/build/warehouse_env/models/hi_vis_person/meshes/person.dae -> /mnt/c/Users/micah/Documents/SCMS_turtlebot/install/warehouse_env/share/warehouse_env/models/hi_vis_person/meshes
