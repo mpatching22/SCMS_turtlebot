@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="floor_concrete">
+    <static>true</static>
+    <pose>0 0 -0.01 0 0 0</pose> <!-- tiny drop so top is above z=0 -->
+    <link name="floor">
+      <visual name="v">
+        <geometry>
+          <box><size>40 40 0.02</size></box>
+        </geometry>
+        <material>
+          <ambient>0.55 0.55 0.55 1</ambient>
+          <diffuse>0.55 0.55 0.55 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+      <collision name="c">
+        <geometry>
+          <box><size>40 40 0.02</size></box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
