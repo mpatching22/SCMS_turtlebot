@@ -3,49 +3,162 @@
   <model name="shelf_simple">
     <static>true</static>
 
-    <link name="upright_left">
-      <pose>-0.5 0 0.8 0 0 0</pose>
-      <visual name="v">
-        <geometry><box><size>0.05 1.0 1.6</size></box></geometry>
-        <material><ambient>0.6 0.6 0.6 1</ambient><diffuse>0.6 0.6 0.6 1</diffuse></material>
-      </visual>
-      <collision name="c"><geometry><box><size>0.05 1.0 1.6</size></box></geometry></collision>
-    </link>
-
-    <link name="upright_right">
-      <pose>0.5 0 0.8 0 0 0</pose>
-      <visual name="v">
-        <geometry><box><size>0.05 1.0 1.6</size></box></geometry>
-        <material><ambient>0.6 0.6 0.6 1</ambient><diffuse>0.6 0.6 0.6 1</diffuse></material>
-      </visual>
-      <collision name="c"><geometry><box><size>0.05 1.0 1.6</size></box></geometry></collision>
-    </link>
-
-    <link name="shelf1">
-      <pose>0 0 1.4 0 0 0</pose>
-      <visual name="v">
-        <geometry><box><size>1.1 1.0 0.04</size></box></geometry>
-        <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
-      </visual>
-      <collision name="c"><geometry><box><size>1.1 1.0 0.04</size></box></geometry></collision>
-    </link>
-
-    <link name="shelf2">
+    <!-- Collision box (keeps lidar and navigation aware of shelf boundaries) -->
+    <link name="collision_box">
       <pose>0 0 0.9 0 0 0</pose>
-      <visual name="v">
-        <geometry><box><size>1.1 1.0 0.04</size></box></geometry>
-        <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
-      </visual>
-      <collision name="c"><geometry><box><size>1.1 1.0 0.04</size></box></geometry></collision>
+      <collision name="collision">
+        <geometry>
+          <box><size>5 0.6 1.8</size></box>
+        </geometry>
+      </collision>
     </link>
 
-    <link name="shelf3">
-      <pose>0 0 0.4 0 0 0</pose>
-      <visual name="v">
-        <geometry><box><size>1.1 1.0 0.04</size></box></geometry>
-        <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
+    <!-- === FRAME POSTS (blue) === -->
+    <link name="post_left_front">
+      <pose>2.4 0.25 0.9 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.03</radius><length>1.8</length></cylinder></geometry>
+        <material>
+          <ambient>0.0 0.0 0.6 1</ambient>
+          <diffuse>0.0 0.0 0.6 1</diffuse>
+        </material>
       </visual>
-      <collision name="c"><geometry><box><size>1.1 1.0 0.04</size></box></geometry></collision>
     </link>
+
+    <link name="post_left_back">
+      <pose>2.4 -0.25 0.9 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.03</radius><length>1.8</length></cylinder></geometry>
+        <material>
+          <ambient>0.0 0.0 0.6 1</ambient>
+          <diffuse>0.0 0.0 0.6 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="post_right_front">
+      <pose>-2.4 0.25 0.9 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.03</radius><length>1.8</length></cylinder></geometry>
+        <material>
+          <ambient>0.0 0.0 0.6 1</ambient>
+          <diffuse>0.0 0.0 0.6 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="post_right_back">
+      <pose>-2.4 -0.25 0.9 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.03</radius><length>1.8</length></cylinder></geometry>
+        <material>
+          <ambient>0.0 0.0 0.6 1</ambient>
+          <diffuse>0.0 0.0 0.6 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <!-- === YELLOW SHELVES === -->
+    <link name="shelf_bottom">
+      <pose>0 0 0.3 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>5 0.6 0.05</size></box></geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1</ambient>
+          <diffuse>1.0 1.0 0.0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="shelf_middle">
+      <pose>0 0 0.9 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>5 0.6 0.05</size></box></geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1</ambient>
+          <diffuse>1.0 1.0 0.0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="shelf_top">
+      <pose>0 0 1.5 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>5 0.6 0.05</size></box></geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1</ambient>
+          <diffuse>1.0 1.0 0.0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <!-- === BOXES ON GROUND LEVEL (block passage) === -->
+    <link name="box_ground_1">
+      <pose>2.0 0 0.15 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>1.0 0.5 0.3</size></box></geometry>
+        <material>
+          <ambient>0.45 0.3 0.1 1</ambient>
+          <diffuse>0.45 0.3 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="box_ground_2">
+      <pose>0.7 0 0.15 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>1.0 0.5 0.3</size></box></geometry>
+        <material>
+          <ambient>0.45 0.3 0.1 1</ambient>
+          <diffuse>0.45 0.3 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="box_ground_3">
+      <pose>-0.6 0 0.15 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>1.0 0.5 0.3</size></box></geometry>
+        <material>
+          <ambient>0.45 0.3 0.1 1</ambient>
+          <diffuse>0.45 0.3 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="box_ground_4">
+      <pose>-1.9 0 0.15 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>1.0 0.5 0.3</size></box></geometry>
+        <material>
+          <ambient>0.45 0.3 0.1 1</ambient>
+          <diffuse>0.45 0.3 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <!-- === ONE BOX ON EACH UPPER SHELF === -->
+    <link name="box_middle">
+      <pose>-1.0 0 1.05 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.8 0.5 0.4</size></box></geometry>
+        <material>
+          <ambient>0.5 0.35 0.15 1</ambient>
+          <diffuse>0.5 0.35 0.15 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <link name="box_top">
+      <pose>1.0 0 1.65 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.7 0.5 0.3</size></box></geometry>
+        <material>
+          <ambient>0.5 0.35 0.15 1</ambient>
+          <diffuse>0.5 0.35 0.15 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
   </model>
 </sdf>
