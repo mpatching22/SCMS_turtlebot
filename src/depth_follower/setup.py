@@ -11,13 +11,22 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
          ['resource/' + package_name]),
+
         ('share/' + package_name, ['package.xml']),
-        # Include all launch files automatically
+
+        # Include all launch files
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
-        # Include config folder
-        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
-        # Include model files
-        (os.path.join('share', package_name, 'models/depth_cam'), glob('models/depth_cam/*.sdf')),
+
+        # Include all models
+        (os.path.join('share', package_name, 'models/depth_cam'),
+         glob('models/depth_cam/*.*')),
+        (os.path.join('share', package_name, 'models/person_simple'),
+         glob('models/person_simple/*.*')),
+        (os.path.join('share', package_name, 'models/shelf_simple'),
+         glob('models/shelf_simple/*.*')),
+
+        # Optional: worlds folder if you add any later
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.world')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
