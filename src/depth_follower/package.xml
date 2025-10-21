@@ -6,20 +6,22 @@
   <maintainer email="you@example.com">SCMS Team</maintainer>
   <license>MIT</license>
 
-  <!-- Python package, not CMake -->
   <buildtool_depend>ament_python</buildtool_depend>
 
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>cv_bridge</exec_depend>
-  <exec_depend>image_transport</exec_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>turtlebot3_description</depend>
+  <depend>gazebo_ros</depend>
+  <depend>xacro</depend>
+  <exec_depend>robot_state_publisher</exec_depend>
 
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
 
   <export>
-    <!-- THIS line tells colcon it's a Python package -->
     <build_type>ament_python</build_type>
   </export>
 </package>
