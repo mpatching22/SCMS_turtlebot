@@ -103,9 +103,12 @@ source install/setup.bash
 
 ### Terminal 1 — Bring Up TurtleBot3
 **Simulation**
+- first time
 ```bash
-export TURTLEBOT3_MODEL=burger
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/turtlebot_ws/src/SCMS_turtlebot/src/depth_follower/models
+```
+```bash
+ros2 launch depth_follower depth_follower.launch.py
 ```
 **Physical Robot**
 
