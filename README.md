@@ -1,8 +1,7 @@
 # 🧠 SCMS_TurtleBot — Warehouse Caddy Bot (ROS 2)
 
-The **Warehouse Caddy Bot** is a human-following TurtleBot system designed to autonomously assist workers in warehouse and logistics environments.  
-Using **RGB-D sensing** and **ROS 2 Humble**, the robot detects and tracks a person wearing high-visibility clothing, maintaining a safe following distance of ~1 m.  
-The system integrates perception, distance estimation, and control through a modular multi-node ROS 2 architecture, capable of running in both **Gazebo simulation** and on the **real TurtleBot3 platform**.
+The Warehouse Caddy Bot is an autonomous human-following mobile robot developed using ROS 2 Humble on a TurtleBot3 Waffle Pi platform.
+It leverages RGB-D sensing, LiDAR safety, and a modular multi-node control system to follow a worker wearing high-visibility clothing at approximately 1 m distance — both in Gazebo simulation and on real hardware.
 
 ---
 
@@ -15,9 +14,9 @@ The system integrates perception, distance estimation, and control through a mod
 | **Project Title** | Warehouse Caddy Bot |
 | **Platform** | TurtleBot3 (Burger / Waffle Pi) |
 | **Framework** | ROS 2 Humble Hawksbill + Python 3.10 (virtual environment) |
-| **Sensor** | RGB-D Depth Camera (e.g. Intel RealSense, Orbbec Astra, Kinect v2) |
+| **Sensor** | RGB-D Depth Camera, 2D LiDAR |
 | **Environment** | Warehouse / Logistics |
-| **Input Topics** | `/camera/color/image_raw`, `/camera/depth/image_raw` |
+| **Input Topics** | `/camera/color/image_raw`, `/camera/depth/image_raw`, `/scan` |
 | **Output Topics** | `/cmd_vel`, `/human_position` |
 | **Goal** | Detect and follow a human wearing high-visibility clothing at ~1 m distance |
 
@@ -25,10 +24,9 @@ The system integrates perception, distance estimation, and control through a mod
 
 ## 🏭 Application Context
 
-The system functions as an **autonomous mobile assistant** in warehouse or factory settings.  
-It follows workers wearing high-visibility vests, carrying tools or parts, and reducing the need for manual carts or trolleys.  
-This improves workflow efficiency, safety, and ergonomics — particularly in **GPS-denied indoor environments** where hands-free operation is vital.  
-The combined RGB and depth sensing allows reliable detection even under variable lighting or cluttered backgrounds.
+The system acts as a **mobile warehouse assistant**, autonomously transporting goods or tools by following a worker.
+Operating in **GPS-denied indoor environments**, it supports ergonomic, hands-free workflows and enhances occupational safety.
+By combining **RGB-D perception** with **LiDAR-based safety checks**, the robot achieves reliable human tracking under variable lighting, clutter, and partial occlusions.
 
 ---
 
@@ -40,10 +38,9 @@ The combined RGB and depth sensing allows reliable detection even under variable
 - Implement a control system to follow at a safe distance  
 
 **Out of Scope**
-- Feature detection / semantic segmentation  
-- Uneven terrain traversal  
-- Multi-person tracking  
-- Collision or obstacle avoidance  
+- Full semantic segmentation or object classification
+- Multi-person tracking / dynamic obstacle avoidance
+- Outdoor / uneven terrain navigation
 
 Focus remains on **core perception–control integration** rather than full autonomous navigation.
 
@@ -62,7 +59,7 @@ Focus remains on **core perception–control integration** rather than full auto
 - Logs distance error and latency for evaluation  
 
 ### 3. Control System Node
-- Implements a **PID-based** control loop to maintain 1.0 m distance  
+- Implements a **P-based** control loop to maintain 1.0 m distance  
 - Publishes velocity commands to `/cmd_vel` with smoothing + safety limits  
 - Visualises control behaviour in RViz2  
 
@@ -91,7 +88,9 @@ Focus remains on **core perception–control integration** rather than full auto
 
 **Setup Commands**
 ```bash
-cd ~/mnt/c/Users/micah/Documents/SCMS_turtlebot
+cd ~/turtlebot_ws/src
+git clone https://github.com/<your-repo>/SCMS_turtlebot.git
+cd ~/turtlebot_ws
 python3 -m venv .venv
 source .venv/bin/activate
 source /opt/ros/humble/setup.bash
@@ -101,42 +100,71 @@ source install/setup.bash
 
 ## 🚀 Launch Instructions
 
-### Terminal 1 — Bring Up TurtleBot3
-**Simulation**
-- first time
-```bash
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/turtlebot_ws/src/SCMS_turtlebot/src/depth_follower/models
-```
-```bash
-ros2 launch depth_follower depth_follower.launch.py
-```
-**Physical Robot**
+### 🧪 Simulation in Gazebo
 
 ```bash
-export TURTLEBOT3_MODEL=burger
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/turtlebot_ws/src/SCMS_turtlebot/src/depth_follower/models
+ros2 launch depth_follower depth_follower.launch.py
+```
+
+### 🤖 Real Robot (Waffle Pi — ros2 turtlebot14)
+
+**SSH Connection**
+```bash
+ssh ubuntu@192.168.0.214
+```
+
+**Launch Robot Bringup**
+```bash
+export TURTLEBOT3_MODEL=waffle_pi
 ros2 launch turtlebot3_bringup robot.launch.py
 ```
 
-### Terminal 2 — Launch the Depth Follower
+
+**Run Follower Node**
 ```bash
-cd ~/mnt/c/Users/micah/Documents/SCMS_turtlebot (for me)
-source .venv/bin/activate
-source install/setup.bash
 ros2 launch depth_follower follower.launch.py
 ```
 
-## 🔍 Verification
+**Manual Movement Test**
+```bash
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
+"{linear: {x: 0.1}, angular: {z: 0.0}}"
+```
+
+**Reboot Robot**
+```bash
+sudo reboot
+```
+
+**Start Camera Node**
+```bash
+ros2 run v4l2_camera v4l2_camera_node
+```
+
+---
+
+## 🔍 Verification Checklist
+
 ```bash
 ros2 topic list
 ros2 node list
 ros2 topic echo /cmd_vel
 ```
-### Expected topics:
-``` bash
+
+**Expected Topics:**
+```bash
+/camera/color/image_raw
 /camera/depth/image_raw
+/scan
 /cmd_vel
-/depth_follower
+/human_position
 ```
+✅ Vest detected logs appear in console
+✅ Robot maintains ~1 m distance and centres target
+✅ LiDAR safety stops trigger correctly
+
+---
 
 ## 🧠 Learning Objectives
 
@@ -197,5 +225,6 @@ _All roles are flexible to ensure balanced collaboration and consistent progress
 ### Other
 - GitHub for version control  
 - UTS Mechatronics Lab for testing and demo  
+
 
 
